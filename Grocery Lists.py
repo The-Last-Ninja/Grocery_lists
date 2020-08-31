@@ -17,7 +17,7 @@ def main():
 
     app.title("Grocery lists")
 
-    app.geometry("800x500")
+    app.geometry("500x375")
 
     app.configure(background="Gray")
 
@@ -32,7 +32,7 @@ def main():
     lists_entry.grid(row=2, column=3)
 
     # Set up Listbox to append or insert items from Entry
-    lists_box = tk.Listbox(app, height=10, width=30, font="Helvetica 12", background="White", foreground="Black")
+    lists_box = tk.Listbox(app, height=15, width=30, font="Helvetica 12", background="White", foreground="Black")
     lists_box.grid(row=1, column=4)
 
     # Set up a button to add items to list
